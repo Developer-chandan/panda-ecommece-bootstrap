@@ -1,0 +1,53 @@
+:root{
+    --btn-color:linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+
+.btn-color{
+    background: var(--btn-color);
+    border:0px;
+}
+/* button{
+    transition: all .6s;
+} */
+.btn-panda-custom{
+    color:white;
+    background: var(--btn-color);
+    
+}
+.btn-panda-custom:hover{
+   
+    color:white;
+   
+}
+.carousel-slider{
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.carousel-item h1,
+p,
+h2,
+button{
+    margin-bottom:1rem;
+}
+.rounded-custom{
+    border-radius: 1rem;
+}
+
+
+/*--------------
+ card 
+---------------- */
+.card-custom{
+    box-shadow: 8px 6px 7px #ffdddd;
+}
+.card-custom .card-border{
+    border:0px;
+    padding: 10px 15px;
+}
+.card-custom button i{
+    font-size: .9rem;
+}
